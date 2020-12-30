@@ -1,0 +1,289 @@
+/*****************************************************For Body************************/
+
+
+body{
+   overflow-x:hidden;
+}
+/********************************************Start Navbar1******************************/
+#navbar-nav{
+    background:#2D3092;
+    padding:8px 40px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    color:white;
+    margin: 0px;
+
+}
+.navbar{
+    background: #fff;
+    margin: 0px;
+    padding:0px;
+    border-top:0.5px ridge #EEEEEE;
+    border-bottom:0.5px ridge #EEEEEE;
+}
+.bg-light{
+    background: #fff !important;
+}
+#navbar-nav i{
+    color:#fff;
+}
+.link1 span{
+    color:#898A8D;
+}
+.pargraph1,.pargraph2{
+    padding-left:20px;
+    font-weight: bold;
+    color:#C2C3C4;
+    float: left;
+}
+.toplink a{
+    color:#898A8D;
+    text-decoration: none;
+    font-weight: bold;
+}
+.toplink i{
+    color: #A9ABDD
+}
+/********************************************Start Navbar2******************************/
+.image{
+    background: #F4F4F4;
+    padding:30px 18px;
+}
+#navnav li a{
+    color:#000;
+    font-weight: bold;
+    margin-left:40px;
+}
+#navnav li a:hover{
+    color:#40439C;
+}
+form i{
+    position:absolute;
+    right:20px;
+    padding:20px;
+    background: #2D3092;
+    border-radius: 50%;
+    color:white;
+}
+form {
+    margin-right:20px;
+}
+#search{
+    padding:15px 30px;
+    border:1px solid black;
+    border-radius: 200px;
+    background: #F4F4F4;
+}
+/**************************************************Hero Section******************************/
+.herosection{
+    background-image: url(../image/heroman.png);
+    background-color:#BCDEFE;
+   background-position: right;
+    background-repeat: no-repeat;
+    width:100%;
+    height:800px;
+}
+#col2{
+    padding-top:100px;
+}
+#col1 h1{
+        font-size:70px;
+    font-weight: bold;
+
+}
+.btn{
+    background: #2D3092;
+    padding:13px 40px;
+    color:white;
+}
+.btn:hover{
+    background: #3E44EC;
+}
+#col2{
+    color:#8CA4DA;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .herosection {
+    background-image: none;
+
+  }
+      #navbarr{
+        display: none;
+    }
+    #imggg{
+        display: none;
+    }
+      #imgg{
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 700px) {
+  .herosection {
+    background-image: none;
+  }
+     #navbarr{
+        display: none;
+    } 
+    #imggg{
+        display:none;
+    }
+      #imgg{
+        margin-bottom: 0px;
+    }
+ 
+}
+@media only screen and (max-width: 800px) {
+  .herosection {
+    background-image: none;
+
+  }
+    #navbarr{
+        display: none;
+    }
+     #imggg{
+        display:none;
+    }
+    #imgg{
+        margin-bottom: 0px;
+    }
+  
+}
+.popularonlinecourses p{
+    color:#8AA2FF;
+}
+#box1{
+    border:1px ridge  lightgrey;
+    padding-left: 20px;
+    margin-bottom:10px;
+    margin-left:4px;
+}
+
+#box1:hover{
+    background: #2D3092;
+    color:white;
+}
+/**************************************Start Topics*******************************************/
+.Topics{
+    padding-top:90px;
+    background: #F6FBFF;
+    height:auto;
+}
+/***************************************Start Most Popular Course****************************/
+.papa1{
+    color:#78A0FF;
+    
+}
+#box2{
+ border:ridge 0.5px lightgrey;  
+ margin-bottom:10px;
+}
+#box2 img{
+    width:100%;
+     padding-top:0px;
+}
+.colorrr i{
+    color:#FBBA42;
+}
+.colorrr{
+    width:100%;
+    
+}
+/**************************Start Our Best Teacher*********************************************/
+#box3{
+     border:1px ridge  lightgrey;
+    margin-right:42px;
+        padding-left:0px;
+        padding-right:0px;
+    background: white;
+    margin-bottom: 10px;
+}
+#box3 img{
+   width:100%;   
+}
+#sec1{
+    background: #2D3092;
+}
+.btnn{
+    margin-top:30px;
+     padding:13px 40px;
+    color:black;
+    background: #fff;
+}
+/***********************************Start Person Section**************************************/
+.beforelast{
+    background:#2D3092;
+    
+}
+#box5{
+ border:ridge 0.5px lightgrey;  
+
+    
+}
+#box5 img{
+    width:100%;
+     padding-top:0px;
+}
+
+#box5 p,h3{
+    font-weight: bold;
+    padding-left:10px;
+    padding-right:10px;
+}
+#box5 div{
+    padding-left:10px;
+}
+#box5 a{
+    text-decoration: none;
+    color:black;
+}
+/*****************************************Start Footer***************************************/
+footer{
+    background: #0B0B1D;
+    width:100%;
+    height:auto;
+    padding-top:100px;
+    color:white;
+}
+.color{
+    background:#2D3092;
+    padding:20px 10px;
+}
+#sec33 i{
+    font-size:70px;
+    margin-left:20px;
+    padding-top:20px;
+    border-radius:100px;
+}
+#latest{
+    margin-left:40px;
+}
+#twitter{
+    color:#007bff;
+     border-radius: 50px;
+}
+#googleplus{
+    color:#3b5998;
+     border-radius: 50px;
+}
+#insta{
+    color: #BB1500
+}
+#yout{
+    color:#2d3092;
+}
+#facebook{
+    color:#3b5998;
+}
+#goog{
+    color:#DD4B39;
+}
+#linkks{
+    color:lightgrey;
+    opacity:0.7;
+}
+#bord{
+    border-bottom: 0.5px ridge lightgrey;
+}

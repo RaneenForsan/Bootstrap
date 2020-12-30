@@ -1,0 +1,219 @@
+/***********************************Start Transform Rotate 2D*********************************/
+*{
+    
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+h1{
+    background:red;
+    transform: rotate(30deg);
+    width:200px;
+}
+h2{
+    background:green;
+    transform: rotate(-30deg);
+    width:200px;
+}
+h3{
+    background:yellow;
+    transform: rotate(180deg);
+    width:200px;
+}
+
+h4:hover{
+    background:pink;
+    transform: rotate(60deg);
+    width:200px;
+}
+/***********************************Start Transform Scale**********************************/
+.container{
+    width:400px;
+    background-color:#eee;
+    margin:100px auto;
+    padding:10px;
+    border:1px solid #ccc;
+    height:200px;
+}
+.scale{
+    background: green;
+    color:white;
+    text-align: center;
+    height:180px;
+    -webkit-transform:scale(0.5,1.5);
+  transform:scale(0.5,1.5);
+}
+.scale:hover{
+ -webkit-transform:scale(2,2);
+  transform:scale(2,2);
+}
+.scale:hover{
+ -webkit-transform:scale(1,1);
+  transform:scale(1,1);
+}
+
+.scale:hover{
+ -webkit-transform:scale(2);
+  transform:scale(2);
+}
+.scale:hover{
+ -webkit-transform:scale(2,1);
+  transform:scale(2,1);
+}
+.scale:hover{
+ -webkit-transform:scaleX(2);
+  transform:scaleX(2);
+}
+.scale:hover{
+ -webkit-transform:scaleY(2);
+  transform:scaleY(2);
+}
+.scale:hover{
+ -webkit-transform:none;
+  transform:none;
+}
+/***********************************Start Transform Translate********************************/
+.contain{
+    width:400px;
+    background-color:#eee;
+    margin:100px auto;
+    padding:10px;
+    border:1px solid #ccc;
+    height:200px;
+}
+.transform{
+     background: green;
+    color:white;
+    text-align: center;
+    height:180px;
+    -webkit-transition:1s ease-in-out;
+}
+.transform:hover{
+    -webkit-transform: translate(80px,80px);/*x:*/
+    transform: translate(80px,80px);
+}
+    .transform:hover{
+    -webkit-transform: translate(80px,80px);/*x:right or left  y:top or down*/
+    transform: translate(80px,80px);
+}
+ .transform:hover{
+    -webkit-transform: translate(80px,0px);/*x:right or left  y:top or down*/
+    transform: translate(80px,0px);
+}
+ .transform:hover{
+    -webkit-transform: translate(-80px,-80px);/*x:right or left  y:top or down*/
+    transform: translate(-80px,-80px);
+}
+
+ .transform:hover{
+    -webkit-transform: translate(80px);/*x:right or left  y:top or down*/
+    transform: translate(80px);
+}
+ .transform:hover{
+    -webkit-transform: translateX(80px);/*x:right or left  y:top or down*/
+    transform: translateX(80px);
+}
+ .transform:hover{
+    -webkit-transform: translateY(50px);/*x:right or left  y:top or down*/
+    transform: translateY(50px);
+}
+
+.transform:hover{
+    -webkit-transform: translateY(-40px) scale(1.5);/*x:right or left  y:top or down*/
+    transform: translateY(-40px) scale(1.5);
+}
+.transform:hover{
+    -webkit-transform: translateY(-40px) scale(1.5);/*x:right or left  y:top or down*/
+    transform: translateY(-40px) scale(1.5);
+}
+.transform:hover{
+    -webkit-transform: translateY(-100px) scale(0.75);/*x:right or left  y:top or down*/
+    transform: translateY(-100px) scale(0.75);
+}
+.transform:hover{
+    -webkit-transform: translateX(-160px) scale(0.75);/*x:right or left  y:top or down*/
+    transform: translateX(-160px) scale(0.75);
+}
+.transform:hover{
+    -webkit-transform: translateX(-160px) scale(0.75) rotate(20deg);/*x:right or left  y:top or down*/
+    transform: translateX(-160px) scale(0.75) rotate(20deg);
+}
+.transform:hover{
+    -webkit-transform: translateX(-160px) scale(0.75) rotate(-20deg);/*x:right or left  y:top or down*/
+    transform: translateX(-160px) scale(0.75) rotate(-20deg);
+}
+
+.transform:hover{
+    -webkit-transform: translateY(-160px) scale(1.2) rotate(30deg);/*x:right or left  y:top or down*/
+    transform: translateY(-160px) scale(0.75) rotate(30deg);
+}
+.transform:hover{
+    -webkit-transform: translateY(160px) scale(1.1) rotate(30deg);/*x:right or left  y:top or down*/
+    transform: translateY(160px) scale(1.1) rotate(30deg);
+}
+
+/***********************************Start Transform Skew************************************/
+
+.skew{
+    background: green;
+    color:white;
+    text-align: center;
+    height:180px;
+}
+.skew:hover{
+        transform:skew(10deg,10deg);/*x,y*/
+
+}
+.skew:hover{
+        transform:skew(10deg);/*x,y*/
+
+}
+.skew:hover{
+        transform:skew(-10deg,-10deg);/*x,y* if I dont choose y it will be 0/*/
+}
+    .skew:hover{
+        transform:skew(-10deg);/*x,y* if I dont choose y it will be 0/*/
+
+}
+   .skew:hover{
+        transform:skewX(30deg);/*x,y* if I dont choose y it will be 0/*/
+}
+   .skew:hover{
+        transform:skewY(30deg) scale(1.1) translate(50px,100px);/*x,y* if I dont choose y it will be 0/*/
+}
+/***********************************Start 3D Rotate****************************************/
+
+#img{
+   transition: all 0.5 ease-in-out; 
+}
+#img:hover{
+    transform: rotate(40deg);
+}
+#img:hover{
+    transform: rotateX(40deg);
+}
+#img:hover{
+    transform: rotateY(40deg);
+}
+/*3D Rotate*/
+#img:hover{
+    transform: rotateX(240deg);
+}
+#img:hover{
+    transform: rotateX(90deg);
+}
+#img:hover{
+    transform: rotateX(180deg);
+}
+#img:hover{
+    transform: rotateX(180deg);
+}
+#img:hover{
+    transform: rotateY(90deg);
+}
+#img:hover{
+    transform: rotateZ(90deg);
+}
+#img:hover{
+    transform: rotateZ(180deg);
+}
+/***********************************Start 3D Translate****************************************/
